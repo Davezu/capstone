@@ -1,3 +1,81 @@
-body {
-    background: radial-gradient(circle, #ff6a00, #ee0979);
+.profile-box {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black ;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+    transition: 0.3s;
+}
+.navbar-gradient {
+    background: linear-gradient(to left, #c7ae24, #c0b276);
+}
+
+
+.profile-box:hover {
+    border-color: black;
+}
+
+.profile-content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.profile-content i {
+    font-size: 30px;
+    color: rgb(54, 54, 54);
+}
+
+.profile-content img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.nav-menu{
+    width: 25px;
+    height: 40px;
+    border-radius:4px;
+    align-items: center;
+    justify-content: center;
+    display:inline-flex;
+    margin-bottom: 15px;
+    color: black;
+ 
+}
+.nav-link.dropdown-toggle::after {
+    display: none !important;
+}
+
+.profile-container {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    border-radius: 8px;
+    width: fit-content;
+}
+
+.profile-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.name {
+    font-weight: bold;
+    font-size: 16px;
+    color: black;
+}
+
+.role {
+    font-size: 14px;
+    color: rgb(27, 27, 27);
+
 }
