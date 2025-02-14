@@ -10,12 +10,3 @@ document.getElementById('uploadPic').addEventListener('change', function(event) 
         reader.readAsDataURL(file);
     }
 });
-
-<li class="nav-item">
-                <div class="profile-box ms-2" onclick="document.getElementById('uploadPic').click()">
-                    <input type="file" id="uploadPic" style="display: none;" accept="image/*">
-                    <div class="profile-content">
-                        <i class='bx bx-user' id="userIcon"></i>
-                    </div>
-                </div>
-            </li>
