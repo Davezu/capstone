@@ -1,3 +1,17 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-gradient {
+    background: linear-gradient(to left, #c7ae24, #ccb23d);
+
+}
+
+.custom-brand {
+    margin-left: -10px;
+    padding-left: 0; 
+}
 .profile-box {
     width: 50px;
     height: 50px;
@@ -7,15 +21,10 @@
     border: 2px solid black ;
     border-radius: 10px;
     overflow: hidden;
-    background-color: rgb(255, 255, 255);
+    background-color: #eecd3b;
     cursor: pointer;
     transition: 0.3s;
 }
-.navbar-gradient {
-    background: linear-gradient(to left, #c7ae24, #c0b276);
-}
-
-
 .profile-box:hover {
     border-color: black;
 }
@@ -52,7 +61,7 @@
  
 }
 .nav-link.dropdown-toggle::after {
-    display: none !important;
+    display: none;
 }
 
 .profile-container {
@@ -78,4 +87,8 @@
     font-size: 14px;
     color: rgb(27, 27, 27);
 
+}
+
+.nav-item.dropdown {
+    position: relative;
 }

@@ -1,0 +1,123 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to top, #fff5e1, #ffebcc);
+    color: #333;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.container {
+    background: linear-gradient(to bottom, #fef5e7, #f8e1ba);
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: auto;
+    border: 0.5px solid #f8e1ba;
+}
+
+.header {
+    background: linear-gradient(to right, #ffbb00, #ff7700);
+    text-align: center;
+    padding: 5px 10px;
+    color: black;
+}
+
+.header h1 {
+    font-size: 1.6rem;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.search-container {
+    position: relative;
+    max-width: 500px;
+    margin: 10px auto;
+}
+
+.search-box {
+    width: 100%;
+    padding: 14px 20px;
+    border-radius: 15px;
+    border: 2px solid #ffb300;
+    font-size: 0.8rem;
+    background: #fff;
+    transition: all 0.3s ease-in-out;
+}
+
+.clear-btn {
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    font-size: 1.2rem;
+    color: #888;
+    cursor: pointer;
+}
+
+.clear-btn:hover {
+    color: #555;
+}
+
+.section-title {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.custom-accordion {
+    overflow: hidden;
+    padding: 10px;
+}
+
+.custom-accordion .accordion-item {
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease-in-out;
+}
+
+.custom-accordion .accordion-button {
+    background: linear-gradient(to right, #ffcc00, #ff9900);
+    color: #333;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 12px;
+    transition: all 0.2s ease-in-out;
+    border-radius: 8px;
+}
+
+.custom-accordion .accordion-button:hover {
+    background: linear-gradient(to right, #ff9900, #ffcc00);
+    color: black;
+    transform: scale(1.005);
+}
+
+.custom-accordion .accordion-button:focus {
+    box-shadow: none;
+}
+
+.custom-accordion .accordion-body {
+    background: white;
+    padding: 12px 15px;
+    font-size: 0.9rem;
+    line-height: 1.6;
+}
+
+.footer {
+    text-align: center;
+    padding: 15px;
+    background: #f1f1f1;
+    font-size: 0.9rem;
+    color: #666;
+    margin-top: 30px;
+}
