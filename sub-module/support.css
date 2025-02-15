@@ -25,6 +25,12 @@ body {
     text-align: center;
     padding: 5px 10px;
     color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    position: relative;
+    width: 100%;
+
 }
 
 .header h1 {
@@ -32,6 +38,21 @@ body {
     font-weight: bold;
     margin-top: 10px;
 }
+
+.back-arrow {
+    position: absolute;
+    left: 1%;
+    text-decoration: none;
+    margin-top: 5px;
+}
+.back-arrow i {
+    font-size: 30px;
+    color: black;
+}
+.back-arrow:hover {
+    transform: scale(1.1);
+}
+
 
 .search-container {
     position: relative;
@@ -48,7 +69,6 @@ body {
     background: #fff;
     transition: all 0.3s ease-in-out;
 }
-
 .clear-btn {
     position: absolute;
     right: 15px;
